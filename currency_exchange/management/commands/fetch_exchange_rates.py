@@ -2,7 +2,7 @@ from django.core.management.base import BaseCommand  # Import BaseCommand
 import yfinance as yf
 from decimal import Decimal
 from datetime import datetime
-from currency_exchange.models import ExchangeRate  # Adjust based on your app's name
+from currency_exchange.models import ExchangeRate
 
 
 class Command(BaseCommand):
